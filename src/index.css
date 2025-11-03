@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* @layer base {
+  body {
+    background-color: #FFF2D7; /* same color tone as your image */
+    /* color: #3E2723; /* deep brown text for contrast */
+  /* }
+} */ 
+
+@layer base {
+  body {
+    background: linear-gradient(to bottom, #cf8d1a, #cf8d1a 60%);
+    color: #3E2723;
+  }
+}
+
+
+
+
+
+
+
+
+
+
